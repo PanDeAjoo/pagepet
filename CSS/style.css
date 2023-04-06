@@ -1,0 +1,19 @@
+#caroPublicidad{
+    max-height: 38rem; /*alto maximo*/
+}
+
+.img-carousel{
+    height: 30rem;
+}
+
+.footer-content{
+    padding-top: 2rem;
+}
+
+.catalog-content{
+    margin-bottom: 10rem ;
+}
+
+.search-button{
+    font-size: 1.0rem;
+}
