@@ -55,45 +55,55 @@
       </div>
     </div>
   </nav>
-  <!-----------------------------VISTA LOGIN----------------------------------->
-  <div class="container imagen">
-    <img src="" alt="" > <!--iMG DE SLIDER-->
-  </div>  
-  <div class="container text-center my-4">
+  <!-----------------------------VISTA CARRITO----------------------------------->
+  <div class="container text-center">
     <div class="row row-cols-2">
-      <div class="col">
-        <form>
-          <div class="mb-2">
-              <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico.</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">No comparta su dirección de correo electrónico con nadie</div>
-          </div>
-          <div class="mb-2">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Verificación</label>
-              <a href="#"></a>
-          </div>
-              <a href="index.html" class="btn btn-primary">Iniciar sesión</a>
-              <br>
-              <a href="#">¿Olvidaste tu contraseña?</a>
-              <p>Al iniciar sesión, acepto la política de privacidad y los terminos de uso de AmigaDateCuenta.cl</p>
-      </form>
+      <div class="col my-4"><h3>Carrito de compras</h3>
+        <table class="table caption-top">
+          <caption>Se realizan envíos gratis por compras superiores a $30.000 en Región Metropolitana</caption>
+          <thead>
+            <tr>
+              <th scope="col">Producto</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <img src="" class="img-fluid rounded-start" alt="100px" width="90px" height="90px"><!--IMAGEN PRODUCTO-->
+              </th>
+              <td>$9.990</td>
+              <td>1</td>
+              <td>$9.990</td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <img src="" class="img-fluid rounded-start" alt="100px" width="90px" height="90px"><!--IMAGEN PRODUCTO-->
+              </th>
+              <td>$11.890</td>
+              <td>1</td>
+              <td>$11.890</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="col">
-        <div class="card text-center">
-          <div class="card-header"></div>
-          <div class="card-body">
-            <h5 class="card-title">ERES NUEVO EN AMIGADATECUENTA.CL?</h5>
-            <p class="card-text">Al registrarse en nuestra tienda, agilizará el proceso de pago, podrá agregar varias direcciones de envío, ver sus pedidos y más.</p>
-            <a href="registrar.html" class="btn btn-primary">Únete</a>
-          </div>
-          <div class="card-footer text-body-secondary">
-          </div>
-        </div>
+      <div class="col my-4"><h3>Resumen de la compra</h3>
+        <ul class="list-group my-4">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <p>Envío a domicilio no incluido</p>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Productos(2)
+            <span class="badge rounded-pill">$21.880</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Total:
+            <span class="badge rounded-pill">$21.880</span>
+          </li>
+          <button type="button" class="btn btn-warning">Continuar compra</button>
+        </ul>
       </div>
     </div>
   </div>

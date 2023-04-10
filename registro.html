@@ -44,7 +44,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="login.html">Login</a>
+            <a class="nav-link active" href="login.html">Login</a><!--AJUSTAR AL FINAL-->
           </li>
         </ul>
         <form class="d-flex">
@@ -55,45 +55,42 @@
       </div>
     </div>
   </nav>
-  <!-----------------------------VISTA LOGIN----------------------------------->
-  <div class="container imagen">
-    <img src="" alt="" > <!--iMG DE SLIDER-->
-  </div>  
-  <div class="container text-center my-4">
-    <div class="row row-cols-2">
-      <div class="col">
-        <form>
+  <!-----------------------------VISTA REGISTRO---------------------------------->
+  <div class="container text-center">
+    <div class="row row-cols-1">
+      <div class="col-4"> 
+      </div>
+      <div class="col-4">
+        <h3>Registrarse</h3>
+        <img src="" alt="150px" height="150px"> <!--IMG USUARIO-->
           <div class="mb-2">
-              <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico.</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">No comparta su dirección de correo electrónico con nadie</div>
+              <label for="exampleInputNombre" class="form-label">Nombre: </label>
+              <input class="form-control">
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputApellido" class="form-label">Apellido: </label>
+              <input class="form-control">
+            </div>
+            <div class="mb-2">
+              <label for="exampleInputTelefono" class="form-label">Telefono: </label>
+              <input class="form-control">
+            </div>
+          <div class="mb-2">
+            <label for="exampleInputEmail" class="form-label">Dirección de correo electrónico: </label>
+            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No comparta su dirección de correo electrónico con nadie</div>
           </div>
           <div class="mb-2">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="exampleInputPassword" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword">
           </div>
           <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Verificación</label>
-              <a href="#"></a>
+            <input type="checkbox" class="form-check-input" id="exampleCheck">
+            <label class="form-check-label" for="exampleCheck">Al Registrarme, acepto la política de privacidad y los terminos de uso de AmigaDateCuenta.cl</label>
+            <a href="#"></a>
           </div>
-              <a href="index.html" class="btn btn-primary">Iniciar sesión</a>
-              <br>
-              <a href="#">¿Olvidaste tu contraseña?</a>
-              <p>Al iniciar sesión, acepto la política de privacidad y los terminos de uso de AmigaDateCuenta.cl</p>
-      </form>
-      </div>
-      <div class="col">
-        <div class="card text-center">
-          <div class="card-header"></div>
-          <div class="card-body">
-            <h5 class="card-title">ERES NUEVO EN AMIGADATECUENTA.CL?</h5>
-            <p class="card-text">Al registrarse en nuestra tienda, agilizará el proceso de pago, podrá agregar varias direcciones de envío, ver sus pedidos y más.</p>
-            <a href="registrar.html" class="btn btn-primary">Únete</a>
-          </div>
-          <div class="card-footer text-body-secondary">
-          </div>
-        </div>
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+          <br>
       </div>
     </div>
   </div>
