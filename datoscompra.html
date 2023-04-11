@@ -1,0 +1,108 @@
+datosCompra.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.3/quartz/bootstrap.min.css"
+    integrity="sha512-3qm29Ouc1OmoMoeJlbg5vEOYakc9MqIWAgDVuB/TJeuqFGftnZyE9S+AP+3TGeYIkPYt6CWz5JdiKkvcZ2qHPg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>datosCompra</title>
+</head>
+<body>
+  <!--NAVBARD-->
+  <nav  class="navbar navbar-expand-lg navbar-dark navbar-light p-3"  id="menu"> <!--navbar-dark-->
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="IMG/pngwing.com (3).png" alt="Avatar Logo" style="width:50px;">
+          <span class="fs-5 text-primary fw-bold">Mascothinhia</span>
+      </a>
+    </div>
+  </nav>
+<!--FIN NAVBARD-->
+
+<!--DATOS COMPRAS-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <h3>Confirmación de pedido</h3>
+        <form class="row g-2">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Avenida ejemplo 123">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Comuna</label>
+            <select id="inputState" class="form-select">
+              <option selected>Seleccione...</option>
+              <option>Puente alto</option>
+              <option>La Florida</option>
+              <option>San Bernardo</option>
+              <option>La reina</option>
+              <option>Maipú</option>
+              <option>La Pintana</option>
+              <option>Providencia</option>
+              <option>Vitacura</option>
+            </select>
+          </div>
+          <div class="col-md-4">
+            <label for="inputZip" class="form-label">Código postal</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <a href="carrito.html" class="btn btn-secondary">Volver</a>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buttoncompra">Realizar Compra</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+<!--DATOS COMPRAS-->
+
+<!--modal-->
+  <div class="modal" id="buttoncompra" pabindex="-1" aria-labelledby="buttoncompraLable" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Compra realizada con éxito</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>¡Gracias por su compra! en breves recibirá a su correo los detalles.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="index.html" class="btn btn-primary">Ok</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Fin modal-->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+</body>
+</html>
